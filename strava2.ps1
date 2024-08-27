@@ -2,7 +2,7 @@
 
 Write-Host "Stava User"
 $headers = @{
-    Authorization = 'Bearer c72642e1afdd278cb01a6f93b4539aaf75a19de8'
+    Authorization = 'Bearer xxx'
 }
 
 $response = Invoke-RestMethod -Uri 'https://www.strava.com/api/v3/athlete' -Headers $headers -Method Get
