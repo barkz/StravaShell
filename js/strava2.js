@@ -71,7 +71,7 @@ $(document).ready (function(){
     var myRequest = new XMLHttpRequest();
     myRequest.overrideMimeType("application/json");
     myRequest.onreadystatechange = myFunction;
-    myRequest.open("GET", "https://www.strava.com/api/v3/activities?access_token=c72642e1afdd278cb01a6f93b4539aaf75a19de8&per_page=50", true);
+    myRequest.open("GET", "https://www.strava.com/api/v3/activities?access_token=xxx&per_page=50", true);
     myRequest.send(null);
     
 });
